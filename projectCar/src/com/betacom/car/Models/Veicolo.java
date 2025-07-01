@@ -10,7 +10,7 @@ public class Veicolo {
 	private String marca; //fiat, audi....
 	private Integer annoProduzione;
 	private String modello;
-	
+	 
 	public Veicolo() {
 		super();
 	}

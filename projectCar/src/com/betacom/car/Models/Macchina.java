@@ -8,7 +8,7 @@ public class Macchina extends Veicolo{
 	public Macchina() {
 		super();
 		
-	}
+	} 
 	public Macchina(Integer id, String tipoVeicolo, Integer numeroRuote, String tipoAlimentazione, String categoria,
 			String colore, String marca, Integer annoProduzione, String modello, Integer numeroPorte, String targa, Integer cc) {
 		super(id, tipoVeicolo, numeroRuote, tipoAlimentazione, categoria, colore, marca, annoProduzione, modello);

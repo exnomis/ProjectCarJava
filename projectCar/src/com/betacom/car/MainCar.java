@@ -19,7 +19,7 @@ public class MainCar {
 	      private String marca; //fiat, audi....
 	      private Integer annoProduzione;
 	      private String modello; */
-		
+		 
 		List<String> params = new ArrayList<String>();
 		
 		params.add("Macchina,4,benzina,strada,verde,fiat,2005,fiat500,4,targa,cc");

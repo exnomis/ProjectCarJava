@@ -4,3 +4,4 @@ public class Moto extends Veicolo{
 	private String targa; //deve essere univoca
 	private Integer cc; //cilindrata
 }
+ 

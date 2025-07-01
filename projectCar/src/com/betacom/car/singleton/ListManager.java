@@ -19,4 +19,4 @@ public class ListManager {
 	private List<Veicolo> listV = new ArrayList<Veicolo>();
 	
 	
-}
+} 

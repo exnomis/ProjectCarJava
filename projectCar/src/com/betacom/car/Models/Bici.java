@@ -6,3 +6,4 @@ public class Bici extends Veicolo{
 	private String tipoSospensione; //senza, mono, ...
 	private Boolean piegevole;
 }
+ 
