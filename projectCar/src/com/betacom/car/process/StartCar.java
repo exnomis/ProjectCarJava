@@ -14,30 +14,22 @@ public class StartCar {
 		System.out.println("**********Begin StartCar**********");
 		    for (String veicolo : params) {
 		        String[] s = veicolo.split(",");
-		        if (s.length == 0) continue;
-
-		        String tipoVeicolo = s[0].trim().toLowerCase();
-
-		        switch (tipoVeicolo) {
-		            case "macchina":
-		                mac.execute(s);
-		                break;
-		            case "moto":
-		                moc.execute(s);
-		                break;
-		            case "bici":
-		                bic.execute(s);
-		                break;
-		            default:
-		                System.out.println("Tipo veicolo non riconosciuto: " + tipoVeicolo);
-		        }
+		        if (s.length > 0) {
+		        	String tipoVeicolo = s[0].trim();
+		        	if (tipoVeicolo.equalsIgnoreCase("macchina")) {
+		        		mac.execute(s);
+		        	}
+		        	if (tipoVeicolo.equalsIgnoreCase("moto")) {
+		        		moc.execute(s);
+		        	}
+		        	if (tipoVeicolo.equalsIgnoreCase("bici")) {
+		        		bic.execute(s);
+		        	}
+		        	
+		        } 
+		        
 		    }
-
-
-
-		
-		
-		
+	
 		return true;
 	}
 }

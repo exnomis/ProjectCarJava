@@ -35,6 +35,11 @@ public class Macchina extends Veicolo{
 	public void setCc(Integer cc) {
 		this.cc = cc;
 	}
+	@Override
+	public String toString() {
+		return "Macchina [numeroPorte=" + numeroPorte + ", targa=" + targa + ", cc=" + cc + ", toString()="
+				+ super.toString() + "]";
+	}
 	
 	
 	
